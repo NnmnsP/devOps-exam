@@ -10,6 +10,10 @@ app.get('/api', (req, res) => {
     res.json(Sample(req.headers.host))
 })
 
+app.get('/health', (req, res) => {
+    res.send('OK');
+  });
+
 var server = app.listen(port, () => {
     console.log(`Listening on port ${port}`)
 })
