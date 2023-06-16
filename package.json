@@ -1,0 +1,16 @@
+{
+  "name": "devops-exam",
+  "version": "1.0.0",
+  "description": "for module 11 of 2022/2023 BCN campus at Harbour.Space university",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
